@@ -3,6 +3,8 @@ Microsoft Visual Studio Solution File, Format Version 11.00
 # Visual Studio 2010
 Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "UpdateEverything", "UpdateEverything\UpdateEverything.csproj", "{F6AE9C68-04C7-4C3C-A22F-323C845933E1}"
 EndProject
+Project("{54435603-DBB4-11D2-8724-00A0C9A8B90C}") = "UESetup", "UESetup\UESetup.vdproj", "{9B05EA87-109A-40A1-B5B6-1A2830613E30}"
+EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
 		Debug|x86 = Debug|x86
@@ -13,6 +15,10 @@ Global
 		{F6AE9C68-04C7-4C3C-A22F-323C845933E1}.Debug|x86.Build.0 = Debug|x86
 		{F6AE9C68-04C7-4C3C-A22F-323C845933E1}.Release|x86.ActiveCfg = Release|x86
 		{F6AE9C68-04C7-4C3C-A22F-323C845933E1}.Release|x86.Build.0 = Release|x86
+		{9B05EA87-109A-40A1-B5B6-1A2830613E30}.Debug|x86.ActiveCfg = Debug
+		{9B05EA87-109A-40A1-B5B6-1A2830613E30}.Debug|x86.Build.0 = Debug
+		{9B05EA87-109A-40A1-B5B6-1A2830613E30}.Release|x86.ActiveCfg = Release
+		{9B05EA87-109A-40A1-B5B6-1A2830613E30}.Release|x86.Build.0 = Release
 	EndGlobalSection
 	GlobalSection(SolutionProperties) = preSolution
 		HideSolutionNode = FALSE

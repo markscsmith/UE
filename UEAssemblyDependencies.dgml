@@ -1,0 +1,470 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<DirectedGraph xmlns="http://schemas.microsoft.com/vs/2009/dgml">
+  <Nodes>
+    <Node Id="@10" Category="CodeSchema_Namespace" CodeSchemaProperty_IsExternal="True" Group="Collapsed" Label="System" />
+    <Node Id="@100" Category="CodeSchema_Method" CodeSchemaProperty_IsExternal="True" CodeSchemaProperty_IsPublic="True" Label="get_Title" />
+    <Node Id="@101" Category="CodeSchema_Method" CodeSchemaProperty_IsExternal="True" CodeSchemaProperty_IsPublic="True" Label="get_Updates" />
+    <Node Id="@102" Category="CodeSchema_Method" CodeSchemaProperty_IsExternal="True" CodeSchemaProperty_IsPublic="True" Label="GetEnumerator" />
+    <Node Id="@103" Category="CodeSchema_Method" CodeSchemaProperty_IsExternal="True" CodeSchemaProperty_IsPublic="True" Label="Install" />
+    <Node Id="@104" Category="CodeSchema_Method" CodeSchemaProperty_IsExternal="True" CodeSchemaProperty_IsPublic="True" Label="MoveNext" />
+    <Node Id="@105" Category="CodeSchema_Method" CodeSchemaProperty_IsExternal="True" CodeSchemaProperty_IsPublic="True" Label="ReadKey" />
+    <Node Id="@12" Category="CodeSchema_Namespace" CodeSchemaProperty_IsExternal="True" Group="Collapsed" Label="System.Collections" />
+    <Node Id="@13" Category="CodeSchema_Namespace" CodeSchemaProperty_IsExternal="True" Group="Collapsed" Label="System.ComponentModel" />
+    <Node Id="@15" Category="CodeSchema_Namespace" CodeSchemaProperty_IsExternal="True" Group="Collapsed" Label="System.Diagnostics" />
+    <Node Id="@16" Category="CodeSchema_Namespace" CodeSchemaProperty_IsExternal="True" Group="Collapsed" Label="System.Diagnostics" />
+    <Node Id="@18" Category="CodeSchema_Namespace" CodeSchemaProperty_IsExternal="True" Group="Collapsed" Label="System.Reflection" />
+    <Node Id="@19" Category="CodeSchema_Namespace" CodeSchemaProperty_IsExternal="True" Group="Collapsed" Label="System.Runtime.CompilerServices" />
+    <Node Id="@2" Category="FileSystem.Category.FileOfType.exe" CodeSchemaProperty_StrongName="UpdateEverything, Version=1.0.0.0, Culture=neutral, PublicKeyToken=null" FilePath="$(f6ae9c68-04c7-4c3c-a22f-323c845933e1.OutputPath)" Group="Expanded" Label="UpdateEverything.exe">
+      <Category Ref="CodeSchema_Assembly" />
+    </Node>
+    <Node Id="@20" Category="CodeSchema_Namespace" CodeSchemaProperty_IsExternal="True" Group="Collapsed" Label="System.Runtime.InteropServices" />
+    <Node Id="@22" Category="CodeSchema_Namespace" Group="Collapsed" Label="UpdateEverything" />
+    <Node Id="@24" Category="CodeSchema_Namespace" CodeSchemaProperty_IsExternal="True" Group="Expanded" Label="WUApiLib" />
+    <Node Id="@25" Category="CodeSchema_Enum" CodeSchemaProperty_IsExternal="True" CodeSchemaProperty_IsPublic="True" Group="Collapsed" Label="DebuggableAttribute.DebuggingModes" />
+    <Node Id="@26" Category="CodeSchema_Attribute" CodeSchemaProperty_IsExternal="True" CodeSchemaProperty_IsPublic="True" Group="Collapsed" Label="AssemblyCompanyAttribute" />
+    <Node Id="@27" Category="CodeSchema_Attribute" CodeSchemaProperty_IsExternal="True" CodeSchemaProperty_IsPublic="True" Group="Collapsed" Label="AssemblyConfigurationAttribute" />
+    <Node Id="@28" Category="CodeSchema_Attribute" CodeSchemaProperty_IsExternal="True" CodeSchemaProperty_IsPublic="True" Group="Collapsed" Label="AssemblyCopyrightAttribute" />
+    <Node Id="@29" Category="CodeSchema_Attribute" CodeSchemaProperty_IsExternal="True" CodeSchemaProperty_IsPublic="True" Group="Collapsed" Label="AssemblyDescriptionAttribute" />
+    <Node Id="@30" Category="CodeSchema_Attribute" CodeSchemaProperty_IsExternal="True" CodeSchemaProperty_IsPublic="True" Group="Collapsed" Label="AssemblyFileVersionAttribute" />
+    <Node Id="@31" Category="CodeSchema_Attribute" CodeSchemaProperty_IsExternal="True" CodeSchemaProperty_IsPublic="True" Group="Collapsed" Label="AssemblyProductAttribute" />
+    <Node Id="@32" Category="CodeSchema_Attribute" CodeSchemaProperty_IsExternal="True" CodeSchemaProperty_IsPublic="True" Group="Collapsed" Label="AssemblyTitleAttribute" />
+    <Node Id="@33" Category="CodeSchema_Attribute" CodeSchemaProperty_IsExternal="True" CodeSchemaProperty_IsPublic="True" Group="Collapsed" Label="AssemblyTrademarkAttribute" />
+    <Node Id="@34" Category="CodeSchema_Attribute" CodeSchemaProperty_IsExternal="True" CodeSchemaProperty_IsPublic="True" Group="Collapsed" Label="Attribute" />
+    <Node Id="@35" Category="CodeSchema_Attribute" CodeSchemaProperty_IsExternal="True" CodeSchemaProperty_IsPublic="True" Group="Collapsed" Label="CompilationRelaxationsAttribute" />
+    <Node Id="@36" Category="CodeSchema_Class" CodeSchemaProperty_IsExternal="True" CodeSchemaProperty_IsPublic="True" Group="Collapsed" Label="Component" />
+    <Node Id="@37" Category="CodeSchema_Attribute" CodeSchemaProperty_IsExternal="True" CodeSchemaProperty_IsPublic="True" Group="Collapsed" Label="ComVisibleAttribute" />
+    <Node Id="@38" Category="CodeSchema_Class" CodeSchemaProperty_IsExternal="True" CodeSchemaProperty_IsPublic="True" Group="Collapsed" Label="Console" />
+    <Node Id="@39" Category="CodeSchema_Attribute" CodeSchemaProperty_IsExternal="True" CodeSchemaProperty_IsPublic="True" Group="Collapsed" Label="DebuggableAttribute" />
+    <Node Id="@4" Category="CodeSchema_Assembly" CodeSchemaProperty_IsExternal="True" CodeSchemaProperty_StrongName="Interop.WUApiLib, Version=2.0.0.0, Culture=neutral, PublicKeyToken=null" Group="Collapsed" Label="Interop.WUApiLib.dll" />
+    <Node Id="@40" Category="CodeSchema_Class" CodeSchemaProperty_IsExternal="True" CodeSchemaProperty_IsPublic="True" Group="Collapsed" Label="Enum" />
+    <Node Id="@41" Category="CodeSchema_Attribute" CodeSchemaProperty_IsExternal="True" CodeSchemaProperty_IsPublic="True" Group="Collapsed" Label="GuidAttribute" />
+    <Node Id="@42" Category="CodeSchema_Interface" CodeSchemaProperty_IsExternal="True" CodeSchemaProperty_IsPublic="True" Group="Collapsed" Label="IDisposable" />
+    <Node Id="@43" Category="CodeSchema_Interface" CodeSchemaProperty_IsExternal="True" CodeSchemaProperty_IsPublic="True" Group="Collapsed" Label="IEnumerator" />
+    <Node Id="@44" Category="CodeSchema_Interface" CodeSchemaProperty_IsExternal="True" CodeSchemaProperty_IsPublic="True" Group="Collapsed" Label="IInstallationBehavior" />
+    <Node Id="@45" Category="CodeSchema_Interface" CodeSchemaProperty_IsExternal="True" CodeSchemaProperty_IsPublic="True" Group="Collapsed" Label="IInstallationResult" />
+    <Node Id="@46" Category="CodeSchema_Interface" CodeSchemaProperty_IsExternal="True" CodeSchemaProperty_IsPublic="True" Group="Collapsed" Label="ISearchResult" />
+    <Node Id="@48" Category="CodeSchema_Interface" CodeSchemaProperty_IsExternal="True" CodeSchemaProperty_IsPublic="True" Group="Collapsed" Label="IUpdate" />
+    <Node Id="@50" Category="CodeSchema_Interface" CodeSchemaProperty_IsExternal="True" CodeSchemaProperty_IsPublic="True" Group="Collapsed" Label="IUpdateCollection" />
+    <Node Id="@51" Category="CodeSchema_Interface" CodeSchemaProperty_IsExternal="True" CodeSchemaProperty_IsPublic="True" Group="Collapsed" Label="IUpdateDownloader" />
+    <Node Id="@52" Category="CodeSchema_Interface" CodeSchemaProperty_IsExternal="True" CodeSchemaProperty_IsPublic="True" Group="Collapsed" Label="IUpdateInstaller" />
+    <Node Id="@53" Category="CodeSchema_Interface" CodeSchemaProperty_IsExternal="True" CodeSchemaProperty_IsPublic="True" Group="Collapsed" Label="IUpdateSearcher" />
+    <Node Id="@55" Category="CodeSchema_Interface" CodeSchemaProperty_IsExternal="True" CodeSchemaProperty_IsPublic="True" Group="Collapsed" Label="IUpdateSession3" />
+    <Node Id="@56" Category="CodeSchema_Class" CodeSchemaProperty_IsExternal="True" CodeSchemaProperty_IsPublic="True" Group="Collapsed" Label="MarshalByRefObject" />
+    <Node Id="@57" Category="CodeSchema_Class" CodeSchemaProperty_IsExternal="True" CodeSchemaProperty_IsPublic="True" Group="Collapsed" Label="Object" />
+    <Node Id="@58" Category="CodeSchema_Class" CodeSchemaProperty_IsExternal="True" CodeSchemaProperty_IsPublic="True" Group="Collapsed" Label="Process" />
+    <Node Id="@6" Category="CodeSchema_Assembly" CodeSchemaProperty_IsExternal="True" CodeSchemaProperty_StrongName="mscorlib, Version=2.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089" Group="Collapsed" Label="mscorlib.dll" />
+    <Node Id="@60" Category="CodeSchema_Class" CodeSchemaProperty_IsPrivate="True" Group="Collapsed" Label="Program" />
+    <Node Id="@61" Category="CodeSchema_Attribute" CodeSchemaProperty_IsExternal="True" CodeSchemaProperty_IsPublic="True" Group="Collapsed" Label="RuntimeCompatibilityAttribute" />
+    <Node Id="@63" Category="CodeSchema_Class" CodeSchemaProperty_IsExternal="True" CodeSchemaProperty_IsPublic="True" Group="Collapsed" Label="String" />
+    <Node Id="@64" Category="CodeSchema_Interface" CodeSchemaProperty_IsExternal="True" CodeSchemaProperty_IsPublic="True" Group="Collapsed" Label="UpdateCollection" />
+    <Node Id="@65" Category="CodeSchema_Class" CodeSchemaProperty_IsExternal="True" CodeSchemaProperty_IsPublic="True" Group="Collapsed" Label="UpdateCollectionClass" />
+    <Node Id="@66" Category="CodeSchema_Class" CodeSchemaProperty_IsExternal="True" CodeSchemaProperty_IsPublic="True" Group="Collapsed" Label="UpdateSessionClass" />
+    <Node Id="@67" Category="CodeSchema_Class" CodeSchemaProperty_IsExternal="True" CodeSchemaProperty_IsPublic="True" Group="Collapsed" Label="ValueType" />
+    <Node Id="@68" Category="CodeSchema_Method" CodeSchemaProperty_IsPrivate="True" Label="Main" />
+    <Node Id="@69" Category="CodeSchema_Method" CodeSchemaProperty_IsPrivate="True" Label="getAutoUpdates" />
+    <Node Id="@70" Category="CodeSchema_Method" CodeSchemaProperty_IsExternal="True" CodeSchemaProperty_IsPublic="True" Label="Add" />
+    <Node Id="@71" Category="CodeSchema_Method" CodeSchemaProperty_IsExternal="True" CodeSchemaProperty_IsPublic="True" Label="Contains" />
+    <Node Id="@72" Category="CodeSchema_Method" CodeSchemaProperty_IsExternal="True" CodeSchemaProperty_IsPublic="True" Label="Search" />
+    <Node Id="@73" Category="CodeSchema_Method" CodeSchemaProperty_IsExternal="True" CodeSchemaProperty_IsPublic="True" Label="WriteLine" />
+    <Node Id="@74" Category="CodeSchema_Method" CodeSchemaProperty_IsExternal="True" CodeSchemaProperty_IsPublic="True" Label="set_Updates" />
+    <Node Id="@75" Category="CodeSchema_Method" CodeSchemaProperty_IsExternal="True" CodeSchemaProperty_IsPublic="True" Label="set_Updates" />
+    <Node Id="@76" Category="CodeSchema_Method" CodeSchemaProperty_IsPrivate="True" Label="CheckForUpdates" />
+    <Node Id="@77" Category="CodeSchema_Method" CodeSchemaProperty_IsExternal="True" CodeSchemaProperty_IsPublic="True" Label="Concat" />
+    <Node Id="@78" Category="CodeSchema_Method" CodeSchemaProperty_IsExternal="True" CodeSchemaProperty_IsPublic="True" Label="Format" />
+    <Node Id="@79" Category="CodeSchema_Method" CodeSchemaProperty_IsExternal="True" CodeSchemaProperty_IsPublic="True" Label="Concat" />
+    <Node Id="@8" Category="CodeSchema_Assembly" CodeSchemaProperty_IsExternal="True" CodeSchemaProperty_StrongName="System, Version=2.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089" Group="Collapsed" Label="System.dll" />
+    <Node Id="@80" Category="CodeSchema_Method" CodeSchemaProperty_IsExternal="True" CodeSchemaProperty_IsPublic="True" Label="Start" />
+    <Node Id="@81" Category="CodeSchema_Method" CodeSchemaProperty_IsPrivate="True" Label="installUpdates" />
+    <Node Id="@83" Category="CodeSchema_Method" CodeSchemaProperty_IsConstructor="True" CodeSchemaProperty_IsExternal="True" CodeSchemaProperty_IsPublic="True" Label="Object" />
+    <Node Id="@84" Category="CodeSchema_Method" CodeSchemaProperty_IsConstructor="True" CodeSchemaProperty_IsPublic="True" CodeSchemaProperty_IsSpecialName="True" Label="Program" />
+    <Node Id="@85" Category="CodeSchema_Method" CodeSchemaProperty_IsConstructor="True" CodeSchemaProperty_IsExternal="True" CodeSchemaProperty_IsPublic="True" Label="UpdateCollectionClass" />
+    <Node Id="@86" Category="CodeSchema_Method" CodeSchemaProperty_IsConstructor="True" CodeSchemaProperty_IsExternal="True" CodeSchemaProperty_IsPublic="True" Label="UpdateSessionClass" />
+    <Node Id="@87" Category="CodeSchema_Method" CodeSchemaProperty_IsExternal="True" CodeSchemaProperty_IsPublic="True" Label="AcceptEula" />
+    <Node Id="@88" Category="CodeSchema_Method" CodeSchemaProperty_IsExternal="True" CodeSchemaProperty_IsPublic="True" Label="CreateUpdateDownloader" />
+    <Node Id="@89" Category="CodeSchema_Method" CodeSchemaProperty_IsExternal="True" CodeSchemaProperty_IsPublic="True" Label="CreateUpdateInstaller" />
+    <Node Id="@90" Category="CodeSchema_Method" CodeSchemaProperty_IsExternal="True" CodeSchemaProperty_IsPublic="True" Label="CreateUpdateSearcher" />
+    <Node Id="@91" Category="CodeSchema_Method" CodeSchemaProperty_IsExternal="True" CodeSchemaProperty_IsPublic="True" Label="Dispose" />
+    <Node Id="@92" Category="CodeSchema_Method" CodeSchemaProperty_IsExternal="True" CodeSchemaProperty_IsPublic="True" Label="Download" />
+    <Node Id="@93" Category="CodeSchema_Method" CodeSchemaProperty_IsExternal="True" CodeSchemaProperty_IsPublic="True" Label="get_CanRequestUserInput" />
+    <Node Id="@94" Category="CodeSchema_Method" CodeSchemaProperty_IsExternal="True" CodeSchemaProperty_IsPublic="True" Label="get_Count" />
+    <Node Id="@95" Category="CodeSchema_Method" CodeSchemaProperty_IsExternal="True" CodeSchemaProperty_IsPublic="True" Label="get_Current" />
+    <Node Id="@96" Category="CodeSchema_Method" CodeSchemaProperty_IsExternal="True" CodeSchemaProperty_IsPublic="True" Label="get_EulaAccepted" />
+    <Node Id="@97" Category="CodeSchema_Method" CodeSchemaProperty_IsExternal="True" CodeSchemaProperty_IsPublic="True" Label="get_InstallationBehavior" />
+    <Node Id="@98" Category="CodeSchema_Method" CodeSchemaProperty_IsExternal="True" CodeSchemaProperty_IsPublic="True" Label="get_IsDownloaded" />
+    <Node Id="@99" Category="CodeSchema_Method" CodeSchemaProperty_IsExternal="True" CodeSchemaProperty_IsPublic="True" Label="get_RebootRequired" />
+    <Node Id="_standardGraphExternalsGroup" Category="Externals" Group="Expanded" Label="Externals" />
+  </Nodes>
+  <Links>
+    <Link Source="@10" Target="@34" Category="Contains" />
+    <Link Source="@10" Target="@38" Category="Contains" />
+    <Link Source="@10" Target="@40" Category="Contains" />
+    <Link Source="@10" Target="@42" Category="Contains" />
+    <Link Source="@10" Target="@56" Category="Contains" />
+    <Link Source="@10" Target="@57" Category="Contains" />
+    <Link Source="@10" Target="@63" Category="Contains" />
+    <Link Source="@10" Target="@67" Category="Contains" />
+    <Link Source="@12" Target="@43" Category="Contains" />
+    <Link Source="@13" Target="@36" Category="Contains" />
+    <Link Source="@15" Target="@25" Category="Contains" />
+    <Link Source="@15" Target="@39" Category="Contains" />
+    <Link Source="@16" Target="@58" Category="Contains" />
+    <Link Source="@18" Target="@26" Category="Contains" />
+    <Link Source="@18" Target="@27" Category="Contains" />
+    <Link Source="@18" Target="@28" Category="Contains" />
+    <Link Source="@18" Target="@29" Category="Contains" />
+    <Link Source="@18" Target="@30" Category="Contains" />
+    <Link Source="@18" Target="@31" Category="Contains" />
+    <Link Source="@18" Target="@32" Category="Contains" />
+    <Link Source="@18" Target="@33" Category="Contains" />
+    <Link Source="@19" Target="@35" Category="Contains" />
+    <Link Source="@19" Target="@61" Category="Contains" />
+    <Link Source="@2" Target="@22" Category="Contains" />
+    <Link Source="@2" Target="@25" Category="References" />
+    <Link Source="@2" Target="@26" Category="CodeSchema_AttributeUse" />
+    <Link Source="@2" Target="@27" Category="CodeSchema_AttributeUse" />
+    <Link Source="@2" Target="@28" Category="CodeSchema_AttributeUse" />
+    <Link Source="@2" Target="@29" Category="CodeSchema_AttributeUse" />
+    <Link Source="@2" Target="@30" Category="CodeSchema_AttributeUse" />
+    <Link Source="@2" Target="@31" Category="CodeSchema_AttributeUse" />
+    <Link Source="@2" Target="@32" Category="CodeSchema_AttributeUse" />
+    <Link Source="@2" Target="@33" Category="CodeSchema_AttributeUse" />
+    <Link Source="@2" Target="@35" Category="CodeSchema_AttributeUse" />
+    <Link Source="@2" Target="@37" Category="CodeSchema_AttributeUse" />
+    <Link Source="@2" Target="@39" Category="CodeSchema_AttributeUse" />
+    <Link Source="@2" Target="@41" Category="CodeSchema_AttributeUse" />
+    <Link Source="@2" Target="@61" Category="CodeSchema_AttributeUse" />
+    <Link Source="@2" Target="@63" Category="References" />
+    <Link Source="@20" Target="@37" Category="Contains" />
+    <Link Source="@20" Target="@41" Category="Contains" />
+    <Link Source="@22" Target="@60" Category="Contains" />
+    <Link Source="@24" Target="@44" Category="Contains" />
+    <Link Source="@24" Target="@45" Category="Contains" />
+    <Link Source="@24" Target="@46" Category="Contains" />
+    <Link Source="@24" Target="@48" Category="Contains" />
+    <Link Source="@24" Target="@50" Category="Contains" />
+    <Link Source="@24" Target="@51" Category="Contains" />
+    <Link Source="@24" Target="@52" Category="Contains" />
+    <Link Source="@24" Target="@53" Category="Contains" />
+    <Link Source="@24" Target="@55" Category="Contains" />
+    <Link Source="@24" Target="@64" Category="Contains" />
+    <Link Source="@24" Target="@65" Category="Contains" />
+    <Link Source="@24" Target="@66" Category="Contains" />
+    <Link Source="@25" Target="@40" Category="InheritsFrom" />
+    <Link Source="@26" Target="@34" Category="InheritsFrom" />
+    <Link Source="@27" Target="@34" Category="InheritsFrom" />
+    <Link Source="@28" Target="@34" Category="InheritsFrom" />
+    <Link Source="@29" Target="@34" Category="InheritsFrom" />
+    <Link Source="@30" Target="@34" Category="InheritsFrom" />
+    <Link Source="@31" Target="@34" Category="InheritsFrom" />
+    <Link Source="@32" Target="@34" Category="InheritsFrom" />
+    <Link Source="@33" Target="@34" Category="InheritsFrom" />
+    <Link Source="@34" Target="@57" Category="InheritsFrom" />
+    <Link Source="@35" Target="@34" Category="InheritsFrom" />
+    <Link Source="@36" Target="@56" Category="InheritsFrom" />
+    <Link Source="@37" Target="@34" Category="InheritsFrom" />
+    <Link Source="@38" Target="@105" Category="Contains" />
+    <Link Source="@38" Target="@57" Category="InheritsFrom" />
+    <Link Source="@38" Target="@73" Category="Contains" />
+    <Link Source="@39" Target="@25" Category="Contains" />
+    <Link Source="@39" Target="@34" Category="InheritsFrom" />
+    <Link Source="@4" Target="@24" Category="Contains" />
+    <Link Source="@40" Target="@67" Category="InheritsFrom" />
+    <Link Source="@41" Target="@34" Category="InheritsFrom" />
+    <Link Source="@42" Target="@91" Category="Contains" />
+    <Link Source="@43" Target="@104" Category="Contains" />
+    <Link Source="@43" Target="@95" Category="Contains" />
+    <Link Source="@44" Target="@93" Category="Contains" />
+    <Link Source="@45" Target="@99" Category="Contains" />
+    <Link Source="@46" Target="@101" Category="Contains" />
+    <Link Source="@48" Target="@100" Category="Contains" />
+    <Link Source="@48" Target="@87" Category="Contains" />
+    <Link Source="@48" Target="@96" Category="Contains" />
+    <Link Source="@48" Target="@97" Category="Contains" />
+    <Link Source="@48" Target="@98" Category="Contains" />
+    <Link Source="@50" Target="@102" Category="Contains" />
+    <Link Source="@50" Target="@70" Category="Contains" />
+    <Link Source="@50" Target="@94" Category="Contains" />
+    <Link Source="@51" Target="@74" Category="Contains" />
+    <Link Source="@51" Target="@92" Category="Contains" />
+    <Link Source="@52" Target="@103" Category="Contains" />
+    <Link Source="@52" Target="@75" Category="Contains" />
+    <Link Source="@53" Target="@72" Category="Contains" />
+    <Link Source="@55" Target="@88" Category="Contains" />
+    <Link Source="@55" Target="@89" Category="Contains" />
+    <Link Source="@55" Target="@90" Category="Contains" />
+    <Link Source="@56" Target="@57" Category="InheritsFrom" />
+    <Link Source="@57" Target="@83" Category="Contains" />
+    <Link Source="@58" Target="@36" Category="InheritsFrom" />
+    <Link Source="@58" Target="@80" Category="Contains" />
+    <Link Source="@6" Target="@10" Category="Contains" />
+    <Link Source="@6" Target="@12" Category="Contains" />
+    <Link Source="@6" Target="@15" Category="Contains" />
+    <Link Source="@6" Target="@18" Category="Contains" />
+    <Link Source="@6" Target="@19" Category="Contains" />
+    <Link Source="@6" Target="@20" Category="Contains" />
+    <Link Source="@60" Target="@57" Category="InheritsFrom" />
+    <Link Source="@60" Target="@68" Category="Contains" />
+    <Link Source="@60" Target="@69" Category="Contains" />
+    <Link Source="@60" Target="@76" Category="Contains" />
+    <Link Source="@60" Target="@81" Category="Contains" />
+    <Link Source="@60" Target="@84" Category="Contains" />
+    <Link Source="@61" Target="@34" Category="InheritsFrom" />
+    <Link Source="@63" Target="@57" Category="InheritsFrom" />
+    <Link Source="@63" Target="@71" Category="Contains" />
+    <Link Source="@63" Target="@77" Category="Contains" />
+    <Link Source="@63" Target="@78" Category="Contains" />
+    <Link Source="@63" Target="@79" Category="Contains" />
+    <Link Source="@65" Target="@57" Category="InheritsFrom" />
+    <Link Source="@65" Target="@85" Category="Contains" />
+    <Link Source="@66" Target="@57" Category="InheritsFrom" />
+    <Link Source="@66" Target="@86" Category="Contains" />
+    <Link Source="@67" Target="@57" Category="InheritsFrom" />
+    <Link Source="@68" Target="@105" Category="CodeSchema_Calls" />
+    <Link Source="@68" Target="@69" Category="CodeSchema_Calls" />
+    <Link Source="@68" Target="@73" Category="CodeSchema_Calls" />
+    <Link Source="@68" Target="@76" Category="CodeSchema_Calls" />
+    <Link Source="@68" Target="@80" Category="CodeSchema_Calls" />
+    <Link Source="@68" Target="@81" Category="CodeSchema_Calls" />
+    <Link Source="@68" Target="@86" Category="CodeSchema_Calls" />
+    <Link Source="@68" Target="@94" Category="CodeSchema_Calls" />
+    <Link Source="@68" Target="@99" Category="CodeSchema_Calls" />
+    <Link Source="@69" Target="@100" Category="CodeSchema_Calls" />
+    <Link Source="@69" Target="@101" Category="CodeSchema_Calls" />
+    <Link Source="@69" Target="@102" Category="CodeSchema_Calls" />
+    <Link Source="@69" Target="@104" Category="CodeSchema_Calls" />
+    <Link Source="@69" Target="@42" Category="References" />
+    <Link Source="@69" Target="@64" Category="CodeSchema_ReturnTypeLink" />
+    <Link Source="@69" Target="@70" Category="CodeSchema_Calls" />
+    <Link Source="@69" Target="@71" Category="CodeSchema_Calls" />
+    <Link Source="@69" Target="@73" Category="CodeSchema_Calls" />
+    <Link Source="@69" Target="@77" Category="CodeSchema_Calls" />
+    <Link Source="@69" Target="@78" Category="CodeSchema_Calls" />
+    <Link Source="@69" Target="@79" Category="CodeSchema_Calls" />
+    <Link Source="@69" Target="@85" Category="CodeSchema_Calls" />
+    <Link Source="@69" Target="@87" Category="CodeSchema_Calls" />
+    <Link Source="@69" Target="@91" Category="CodeSchema_Calls" />
+    <Link Source="@69" Target="@93" Category="CodeSchema_Calls" />
+    <Link Source="@69" Target="@94" Category="CodeSchema_Calls" />
+    <Link Source="@69" Target="@95" Category="CodeSchema_Calls" />
+    <Link Source="@69" Target="@96" Category="CodeSchema_Calls" />
+    <Link Source="@69" Target="@97" Category="CodeSchema_Calls" />
+    <Link Source="@76" Target="@46" Category="CodeSchema_ReturnTypeLink" />
+    <Link Source="@76" Target="@72" Category="CodeSchema_Calls" />
+    <Link Source="@76" Target="@73" Category="CodeSchema_Calls" />
+    <Link Source="@76" Target="@86" Category="CodeSchema_Calls" />
+    <Link Source="@76" Target="@90" Category="CodeSchema_Calls" />
+    <Link Source="@8" Target="@13" Category="Contains" />
+    <Link Source="@8" Target="@16" Category="Contains" />
+    <Link Source="@81" Target="@102" Category="CodeSchema_Calls" />
+    <Link Source="@81" Target="@103" Category="CodeSchema_Calls" />
+    <Link Source="@81" Target="@104" Category="CodeSchema_Calls" />
+    <Link Source="@81" Target="@42" Category="References" />
+    <Link Source="@81" Target="@45" Category="CodeSchema_ReturnTypeLink" />
+    <Link Source="@81" Target="@70" Category="CodeSchema_Calls" />
+    <Link Source="@81" Target="@73" Category="CodeSchema_Calls" />
+    <Link Source="@81" Target="@74" Category="CodeSchema_Calls" />
+    <Link Source="@81" Target="@75" Category="CodeSchema_Calls" />
+    <Link Source="@81" Target="@85" Category="CodeSchema_Calls" />
+    <Link Source="@81" Target="@88" Category="CodeSchema_Calls" />
+    <Link Source="@81" Target="@89" Category="CodeSchema_Calls" />
+    <Link Source="@81" Target="@91" Category="CodeSchema_Calls" />
+    <Link Source="@81" Target="@92" Category="CodeSchema_Calls" />
+    <Link Source="@81" Target="@95" Category="CodeSchema_Calls" />
+    <Link Source="@81" Target="@98" Category="CodeSchema_Calls" />
+    <Link Source="@84" Target="@83" Category="CodeSchema_Calls" />
+    <Link Source="_standardGraphExternalsGroup" Target="@4" Category="Contains" />
+    <Link Source="_standardGraphExternalsGroup" Target="@6" Category="Contains" />
+    <Link Source="_standardGraphExternalsGroup" Target="@8" Category="Contains" />
+  </Links>
+  <Categories>
+    <Category Id="CodeSchema_Assembly" Label="Assembly" BasedOn="File" CanBeDataDriven="True" DefaultAction="Microsoft.Contains" Icon="CodeSchema_Assembly" IsProviderRoot="False" NavigationActionLabel="Assemblies" />
+    <Category Id="CodeSchema_Attribute" Label="Attribute" BasedOn="CodeSchema_Class" CanBeDataDriven="True" DefaultAction="Microsoft.Contains" Icon="CodeSchema_Attribute" IsProviderRoot="False" NavigationActionLabel="Attributes" />
+    <Category Id="CodeSchema_AttributeUse" Label="Uses Attribute" CanBeDataDriven="True" CanLinkedNodesBeDataDriven="True" IncomingActionLabel="Used by" OutgoingActionLabel="Uses Attribute" />
+    <Category Id="CodeSchema_Block" Label="Block" BasedOn="CodeSchema_Statement" CanBeDataDriven="True" DefaultAction="Microsoft.Contains" IsProviderRoot="False" NavigationActionLabel="Blocks" />
+    <Category Id="CodeSchema_Calls" Label="Calls" CanBeDataDriven="True" CanLinkedNodesBeDataDriven="True" IncomingActionLabel="Called By" OutgoingActionLabel="Calls" />
+    <Category Id="CodeSchema_Class" Label="Class" BasedOn="CodeSchema_Type" CanBeDataDriven="True" DefaultAction="Node:Both:CodeSchema_Member" Icon="CodeSchema_Class" IsProviderRoot="False" NavigationActionLabel="Classes" />
+    <Category Id="CodeSchema_Enum" Label="Enum" BasedOn="CodeSchema_Type" CanBeDataDriven="True" DefaultAction="Node:Both:CodeSchema_Member" Icon="CodeSchema_Enum" IsProviderRoot="False" NavigationActionLabel="Enums" />
+    <Category Id="CodeSchema_Interface" Label="Interface" BasedOn="CodeSchema_Type" CanBeDataDriven="True" DefaultAction="Node:Both:CodeSchema_Member" Icon="CodeSchema_Interface" IsProviderRoot="False" NavigationActionLabel="Interfaces" />
+    <Category Id="CodeSchema_Member" Label="Member" BasedOn="CodeSchema_Block" CanBeDataDriven="True" DefaultAction="Microsoft.Contains" Icon="CodeSchema_Field" IsProviderRoot="False" NavigationActionLabel="Members" />
+    <Category Id="CodeSchema_Method" Label="Method" BasedOn="CodeSchema_Member" CanBeDataDriven="True" DefaultAction="Link:Forward:CodeSchema_Calls" Icon="CodeSchema_Method" IsProviderRoot="False" NavigationActionLabel="Methods" />
+    <Category Id="CodeSchema_Namespace" Label="Namespace" BasedOn="CodeSchema_Block" CanBeDataDriven="True" DefaultAction="Node:Both:CodeSchema_Type" Icon="CodeSchema_Namespace" IsProviderRoot="False" NavigationActionLabel="Namespaces" />
+    <Category Id="CodeSchema_ReturnTypeLink" Label="Return" CanBeDataDriven="True" CanLinkedNodesBeDataDriven="True" IncomingActionLabel="Return types" OutgoingActionLabel="Return types" />
+    <Category Id="CodeSchema_Statement" Label="Statement" CanBeDataDriven="True" DefaultAction="Microsoft.Contains" IsProviderRoot="False" NavigationActionLabel="Statement" />
+    <Category Id="CodeSchema_Type" Label="Type" BasedOn="CodeSchema_Block" CanBeDataDriven="True" DefaultAction="Node:Both:CodeSchema_Member" Icon="CodeSchema_Class" IsProviderRoot="False" NavigationActionLabel="Types" />
+    <Category Id="Contains" Label="Contains" CanBeDataDriven="False" CanLinkedNodesBeDataDriven="True" IncomingActionLabel="Contained By" IsContainment="True" OutgoingActionLabel="Contains" />
+    <Category Id="Externals" Label="Externals" CanBeDataDriven="True" IsProviderRoot="False" NavigationActionLabel="Externals" />
+    <Category Id="File" Label="File" CanBeDataDriven="True" DefaultAction="Microsoft.Contains" Icon="File" IsProviderRoot="False" NavigationActionLabel="Files" />
+    <Category Id="FileSystem.Category.FileOfType.exe" Label="exe File" BasedOn="CodeSchema_Assembly" CanBeDataDriven="True" IsProviderRoot="False" NavigationActionLabel="exe Files" />
+    <Category Id="InheritsFrom" Label="Inherits From" CanBeDataDriven="True" CanLinkedNodesBeDataDriven="True" IncomingActionLabel="Inherited By" OutgoingActionLabel="Inherits From" />
+    <Category Id="References" Label="References" CanBeDataDriven="True" CanLinkedNodesBeDataDriven="True" IncomingActionLabel="Referenced By" OutgoingActionLabel="References" />
+  </Categories>
+  <Properties>
+    <Property Id="CanBeDataDriven" Label="CanBeDataDriven" Description="CanBeDataDriven" DataType="System.Boolean" />
+    <Property Id="CanLinkedNodesBeDataDriven" Label="CanLinkedNodesBeDataDriven" Description="CanLinkedNodesBeDataDriven" DataType="System.Boolean" />
+    <Property Id="CodeSchemaProperty_IsConstructor" Label="IsConstructor" Description="IsConstructor" DataType="System.Boolean" />
+    <Property Id="CodeSchemaProperty_IsExternal" Label="IsExternal" Description="IsExternal" DataType="System.Boolean" />
+    <Property Id="CodeSchemaProperty_IsPrivate" Label="IsPrivate" Description="IsPrivate" DataType="System.Boolean" />
+    <Property Id="CodeSchemaProperty_IsPublic" Label="IsPublic" Description="IsPublic" DataType="System.Boolean" />
+    <Property Id="CodeSchemaProperty_IsSpecialName" Label="IsSpecialName" Description="IsSpecialName" DataType="System.Boolean" />
+    <Property Id="CodeSchemaProperty_StrongName" Label="StrongName" Description="StrongName" DataType="System.String" />
+    <Property Id="DefaultAction" Label="DefaultAction" Description="DefaultAction" DataType="System.String" />
+    <Property Id="FilePath" Label="File Path" Description="File Path" DataType="System.String" />
+    <Property Id="Group" Label="Group" Description="Display the node as a group" DataType="Microsoft.VisualStudio.Progression.GraphModel.GroupStyle" />
+    <Property Id="Icon" Label="Icon" Description="Icon" DataType="System.String" />
+    <Property Id="IncomingActionLabel" Label="IncomingActionLabel" Description="IncomingActionLabel" DataType="System.String" />
+    <Property Id="IsContainment" DataType="System.Boolean" />
+    <Property Id="IsProviderRoot" Label="IsProviderRoot" Description="IsProviderRoot" DataType="System.Boolean" />
+    <Property Id="Label" Label="Label" Description="Displayable label of an Annotatable object" DataType="System.String" />
+    <Property Id="NavigationActionLabel" Label="NavigationActionLabel" Description="NavigationActionLabel" DataType="System.String" />
+    <Property Id="OutgoingActionLabel" Label="OutgoingActionLabel" Description="OutgoingActionLabel" DataType="System.String" />
+  </Properties>
+  <QualifiedNames>
+    <Name Id="ArrayRank" Label="Array Rank" ValueType="System.String" />
+    <Name Id="Assembly" Label="Assembly" ValueType="Uri" />
+    <Name Id="Member" Label="Member" ValueType="System.Object" />
+    <Name Id="Name" Label="Name" ValueType="System.String" />
+    <Name Id="Namespace" Label="Namespace" ValueType="System.String" />
+    <Name Id="OverloadingParameters" Label="Parameter" ValueType="Microsoft.VisualStudio.Progression.GraphModel.QualifiedIdentifierArrayCollection" Formatter="NameValueNoEscape" />
+    <Name Id="ParentType" Label="Parent Type" ValueType="System.Object" />
+    <Name Id="Type" Label="Type" ValueType="System.Object" />
+  </QualifiedNames>
+  <Styles>
+    <Style TargetType="Node" GroupLabel="Assembly" ValueLabel="Has category">
+      <Condition Expression="HasCategory('CodeSchema_Assembly')" />
+      <Setter Property="Background" Value="#1C3068" />
+    </Style>
+    <Style TargetType="Node" GroupLabel="Namespace" ValueLabel="Has category">
+      <Condition Expression="HasCategory('CodeSchema_Namespace')" />
+      <Setter Property="Background" Value="#4A65A0" />
+    </Style>
+    <Style TargetType="Node" GroupLabel="Type" ValueLabel="Has category">
+      <Condition Expression="HasCategory('CodeSchema_Type')" />
+      <Setter Property="Background" Value="#D3DCEF" />
+    </Style>
+    <Style TargetType="Node" GroupLabel="Method" ValueLabel="Has category">
+      <Condition Expression="HasCategory('CodeSchema_Method')" />
+      <Setter Property="Background" Value="#FFE0E0E0" />
+    </Style>
+    <Style TargetType="Node" GroupLabel="Generics" ValueLabel="Has category">
+      <Condition Expression="HasCategory('Generics')" />
+      <Setter Property="Background" Value="#FFA080A0" />
+    </Style>
+    <Style TargetType="Node" GroupLabel="Externals" ValueLabel="Has category">
+      <Condition Expression="HasCategory('Externals')" />
+      <Setter Property="Background" Value="#FFA08080" />
+    </Style>
+  </Styles>
+  <IdentifierAliases>
+    <Alias n="1" Uri="Assembly=$(f6ae9c68-04c7-4c3c-a22f-323c845933e1.OutputPathUri)" />
+    <Alias n="2" Id="(@1)" />
+    <Alias n="3" Uri="Assembly=$(VsSolutionUri)/UpdateEverything/obj/x86/Debug/Interop.WUApiLib.dll" />
+    <Alias n="4" Id="(@3)" />
+    <Alias n="5" Uri="Assembly=$(FxRootUri)/v2.0.50727/mscorlib.dll" />
+    <Alias n="6" Id="(@5)" />
+    <Alias n="7" Uri="Assembly=$(FxRootUri)/v2.0.50727/System.dll" />
+    <Alias n="8" Id="(@7)" />
+    <Alias n="9" Id="Namespace=System" />
+    <Alias n="10" Id="(@5 @9)" />
+    <Alias n="11" Id="Namespace=System.Collections" />
+    <Alias n="12" Id="(@5 @11)" />
+    <Alias n="13" Id="(@7 Namespace=System.ComponentModel)" />
+    <Alias n="14" Id="Namespace=System.Diagnostics" />
+    <Alias n="15" Id="(@5 @14)" />
+    <Alias n="16" Id="(@7 @14)" />
+    <Alias n="17" Id="Namespace=System.Reflection" />
+    <Alias n="18" Id="(@5 @17)" />
+    <Alias n="19" Id="(@5 Namespace=System.Runtime.CompilerServices)" />
+    <Alias n="20" Id="(@5 Namespace=System.Runtime.InteropServices)" />
+    <Alias n="21" Id="Namespace=UpdateEverything" />
+    <Alias n="22" Id="(@1 @21)" />
+    <Alias n="23" Id="Namespace=WUApiLib" />
+    <Alias n="24" Id="(@3 @23)" />
+    <Alias n="25" Id="(@5 @14 Type=(Name=DebuggingModes ParentType=DebuggableAttribute))" />
+    <Alias n="26" Id="(@5 @17 Type=AssemblyCompanyAttribute)" />
+    <Alias n="27" Id="(@5 @17 Type=AssemblyConfigurationAttribute)" />
+    <Alias n="28" Id="(@5 @17 Type=AssemblyCopyrightAttribute)" />
+    <Alias n="29" Id="(@5 @17 Type=AssemblyDescriptionAttribute)" />
+    <Alias n="30" Id="(@5 @17 Type=AssemblyFileVersionAttribute)" />
+    <Alias n="31" Id="(@5 @17 Type=AssemblyProductAttribute)" />
+    <Alias n="32" Id="(@5 @17 Type=AssemblyTitleAttribute)" />
+    <Alias n="33" Id="(@5 @17 Type=AssemblyTrademarkAttribute)" />
+    <Alias n="34" Id="(@5 @9 Type=Attribute)" />
+    <Alias n="35" Id="(@5 Namespace=System.Runtime.CompilerServices Type=CompilationRelaxationsAttribute)" />
+    <Alias n="36" Id="(@7 Namespace=System.ComponentModel Type=Component)" />
+    <Alias n="37" Id="(@5 Namespace=System.Runtime.InteropServices Type=ComVisibleAttribute)" />
+    <Alias n="38" Id="(@5 @9 Type=Console)" />
+    <Alias n="39" Id="(@5 @14 Type=DebuggableAttribute)" />
+    <Alias n="40" Id="(@5 @9 Type=Enum)" />
+    <Alias n="41" Id="(@5 Namespace=System.Runtime.InteropServices Type=GuidAttribute)" />
+    <Alias n="42" Id="(@5 @9 Type=IDisposable)" />
+    <Alias n="43" Id="(@5 @11 Type=IEnumerator)" />
+    <Alias n="44" Id="(@3 @23 Type=IInstallationBehavior)" />
+    <Alias n="45" Id="(@3 @23 Type=IInstallationResult)" />
+    <Alias n="46" Id="(@3 @23 Type=ISearchResult)" />
+    <Alias n="47" Id="Type=IUpdate" />
+    <Alias n="48" Id="(@3 @23 @47)" />
+    <Alias n="49" Id="Type=IUpdateCollection" />
+    <Alias n="50" Id="(@3 @23 @49)" />
+    <Alias n="51" Id="(@3 @23 Type=IUpdateDownloader)" />
+    <Alias n="52" Id="(@3 @23 Type=IUpdateInstaller)" />
+    <Alias n="53" Id="(@3 @23 Type=IUpdateSearcher)" />
+    <Alias n="54" Id="Type=IUpdateSession3" />
+    <Alias n="55" Id="(@3 @23 @54)" />
+    <Alias n="56" Id="(@5 @9 Type=MarshalByRefObject)" />
+    <Alias n="57" Id="(@5 @9 Type=Object)" />
+    <Alias n="58" Id="(@7 @14 Type=Process)" />
+    <Alias n="59" Id="Type=Program" />
+    <Alias n="60" Id="(@1 @21 @59)" />
+    <Alias n="61" Id="(@5 Namespace=System.Runtime.CompilerServices Type=RuntimeCompatibilityAttribute)" />
+    <Alias n="62" Id="Type=String" />
+    <Alias n="63" Id="(@5 @9 @62)" />
+    <Alias n="64" Id="(@3 @23 Type=UpdateCollection)" />
+    <Alias n="65" Id="(@3 @23 Type=UpdateCollectionClass)" />
+    <Alias n="66" Id="(@3 @23 Type=UpdateSessionClass)" />
+    <Alias n="67" Id="(@5 @9 Type=ValueType)" />
+    <Alias n="68" Id="(@1 @21 @59 Member=(Name=Main OverloadingParameters=[(@5 @9 Type=(Name=String ArrayRank=1 ParentType=String))]))" />
+    <Alias n="69" Id="(@1 @21 @59 Member=(Name=getAutoUpdates OverloadingParameters=[@46]))" />
+    <Alias n="70" Id="(@3 @23 @49 Member=(Name=Add OverloadingParameters=[@48]))" />
+    <Alias n="71" Id="(@5 @9 @62 Member=(Name=Contains OverloadingParameters=[@63]))" />
+    <Alias n="72" Id="(@3 @23 Type=IUpdateSearcher Member=(Name=Search OverloadingParameters=[@63]))" />
+    <Alias n="73" Id="(@5 @9 Type=Console Member=(Name=WriteLine OverloadingParameters=[@63]))" />
+    <Alias n="74" Id="(@3 @23 Type=IUpdateDownloader Member=(Name=set_Updates OverloadingParameters=[@64]))" />
+    <Alias n="75" Id="(@3 @23 Type=IUpdateInstaller Member=(Name=set_Updates OverloadingParameters=[@64]))" />
+    <Alias n="76" Id="(@1 @21 @59 Member=(Name=CheckForUpdates OverloadingParameters=[(@3 @23 Type=UpdateSession)]))" />
+    <Alias n="77" Id="(@5 @9 @62 Member=(Name=Concat OverloadingParameters=[@57,@57]))" />
+    <Alias n="78" Id="(@5 @9 @62 Member=(Name=Format OverloadingParameters=[@63,@57]))" />
+    <Alias n="79" Id="(@5 @9 @62 Member=(Name=Concat OverloadingParameters=[@63,@63]))" />
+    <Alias n="80" Id="(@7 @14 Type=Process Member=(Name=Start OverloadingParameters=[@63,@63]))" />
+    <Alias n="81" Id="(@1 @21 @59 Member=(Name=installUpdates OverloadingParameters=[(@3 @23 Type=UpdateSession),@64]))" />
+    <Alias n="82" Id="Member=.ctor" />
+    <Alias n="83" Id="(@5 @9 Type=Object @82)" />
+    <Alias n="84" Id="(@1 @21 @59 @82)" />
+    <Alias n="85" Id="(@3 @23 Type=UpdateCollectionClass @82)" />
+    <Alias n="86" Id="(@3 @23 Type=UpdateSessionClass @82)" />
+    <Alias n="87" Id="(@3 @23 @47 Member=AcceptEula)" />
+    <Alias n="88" Id="(@3 @23 @54 Member=CreateUpdateDownloader)" />
+    <Alias n="89" Id="(@3 @23 @54 Member=CreateUpdateInstaller)" />
+    <Alias n="90" Id="(@3 @23 @54 Member=CreateUpdateSearcher)" />
+    <Alias n="91" Id="(@5 @9 Type=IDisposable Member=Dispose)" />
+    <Alias n="92" Id="(@3 @23 Type=IUpdateDownloader Member=Download)" />
+    <Alias n="93" Id="(@3 @23 Type=IInstallationBehavior Member=get_CanRequestUserInput)" />
+    <Alias n="94" Id="(@3 @23 @49 Member=get_Count)" />
+    <Alias n="95" Id="(@5 @11 Type=IEnumerator Member=get_Current)" />
+    <Alias n="96" Id="(@3 @23 @47 Member=get_EulaAccepted)" />
+    <Alias n="97" Id="(@3 @23 @47 Member=get_InstallationBehavior)" />
+    <Alias n="98" Id="(@3 @23 @47 Member=get_IsDownloaded)" />
+    <Alias n="99" Id="(@3 @23 Type=IInstallationResult Member=get_RebootRequired)" />
+    <Alias n="100" Id="(@3 @23 @47 Member=get_Title)" />
+    <Alias n="101" Id="(@3 @23 Type=ISearchResult Member=get_Updates)" />
+    <Alias n="102" Id="(@3 @23 @49 Member=GetEnumerator)" />
+    <Alias n="103" Id="(@3 @23 Type=IUpdateInstaller Member=Install)" />
+    <Alias n="104" Id="(@5 @11 Type=IEnumerator Member=MoveNext)" />
+    <Alias n="105" Id="(@5 @9 Type=Console Member=ReadKey)" />
+  </IdentifierAliases>
+  <Paths>
+    <Path Id="f6ae9c68-04c7-4c3c-a22f-323c845933e1.OutputPath" Value="C:\Users\Mark Smith\Documents\Visual Studio 2010\Projects\UpdateEverything\UpdateEverything\bin\Debug\UpdateEverything.exe" />
+    <Path Id="f6ae9c68-04c7-4c3c-a22f-323c845933e1.OutputPathUri" Value="file:///C:/Users/Mark Smith/Documents/Visual Studio 2010/Projects/UpdateEverything/UpdateEverything/bin/Debug/UpdateEverything.exe" />
+    <Path Id="FxRootUri" Value="file:///C:/Windows/Microsoft.NET/Framework" />
+    <Path Id="VsSolutionUri" Value="file:///C:/Users/Mark Smith/Documents/Visual Studio 2010/Projects/UpdateEverything" />
+  </Paths>
+</DirectedGraph>

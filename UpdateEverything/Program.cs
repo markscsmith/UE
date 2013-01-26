@@ -22,6 +22,7 @@ namespace UpdateEverything
                 uResult = CheckForUpdates(session);
 
                 UpdateCollection toInstallAutomatically = getAutoUpdates(uResult);
+
                 if (toInstallAutomatically.Count > 0)
                 {
                     IInstallationResult installationRes = installUpdates(session, toInstallAutomatically);
@@ -55,7 +56,7 @@ namespace UpdateEverything
 
         private static IInstallationResult installUpdates(UpdateSession session, UpdateCollection toInstallAutomatically)
         {
-            Console.WriteLine("Downloading.");
+            Console.WriteLine("Downloading {0} updates", toInstallAutomatically.Count);
             UpdateDownloader downloader = session.CreateUpdateDownloader();
             
             downloader.Updates = toInstallAutomatically;
@@ -69,7 +70,7 @@ namespace UpdateEverything
                 }
 
             }
-            Console.WriteLine("Installing.");
+            Console.WriteLine("Installing {0} updates",updatesToInstall.Count);
             IUpdateInstaller installer = session.CreateUpdateInstaller();
             installer.Updates = updatesToInstall;
             IInstallationResult installtionRes = installer.Install();
@@ -79,12 +80,10 @@ namespace UpdateEverything
 
         static UpdateCollection getAutoUpdates(ISearchResult found)
         {
+            Console.WriteLine("Accepting EULAs");
             UpdateCollection toInstallAutomatically = new UpdateCollection();
             foreach (IUpdate update in found.Updates)
             {
-                Console.WriteLine(update.Title);
-                Console.WriteLine("Interactive: " + update.InstallationBehavior.CanRequestUserInput);
-                Console.WriteLine("EULA Accepted:" + update.EulaAccepted);
 
                 if (!update.EulaAccepted)
                 {
@@ -116,11 +115,11 @@ namespace UpdateEverything
             }
             if (toInstallAutomatically.Count == 1)
             {
-                Console.WriteLine(String.Format("{0,5} update can be installed automatically.", toInstallAutomatically.Count));
+                Console.WriteLine(String.Format("{0,5} update out of {0} can be installed automatically.", toInstallAutomatically.Count, found.Updates.Count));
             }
             else
             {
-                Console.WriteLine(String.Format("{0,5} updates can be installed automatically.", toInstallAutomatically.Count));
+                Console.WriteLine(String.Format("{0,5} updates out of {0} can be installed automatically.", toInstallAutomatically.Count, found.Updates.Count));
             }
             foreach (IUpdate update in toInstallAutomatically)
             {
