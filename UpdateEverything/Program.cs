@@ -1,58 +1,66 @@
 ﻿using System;
-/*
+
 using System.Collections.Generic;
 using System.Linq;
 using System.Text;
-using System.Management; */
+using System.Threading;
+using System.Management; 
 using WUApiLib;
 
 namespace UpdateEverything
 {
     class Program
     {
-        //static void Main(string[] args)
-        //{
-        //    UpdateSession session = new UpdateSession();
-        //    ISearchResult uResult;
+        static void Main(string[] args)
+        {
+            UpdateSession session = new UpdateSession();
+            ISearchResult uResult;
+            AutomaticUpdatesClass updateChecker = new AutomaticUpdatesClass();
+            Console.WriteLine("Service enabled?" + updateChecker.ServiceEnabled);
+            int attempts = 5;
+            while (!updateChecker.ServiceEnabled && attempts >= 0){
+                attempts--;
+                updateChecker.EnableService();
+                Thread.Sleep(2000);
+            }
+            Boolean moreUpdates = true;
+            while (moreUpdates)
+            {
 
-        //    Boolean moreUpdates = true;
-        //    while (moreUpdates)
-        //    {
+                uResult = CheckForUpdates(session);
 
-        //        uResult = CheckForUpdates(session);
+                UpdateCollection toInstallAutomatically = getAutoUpdates(uResult);
 
-        //        UpdateCollection toInstallAutomatically = getAutoUpdates(uResult);
+                if (toInstallAutomatically.Count > 0)
+                {
+                    IInstallationResult installationRes = installUpdates(session, toInstallAutomatically);
 
-        //        if (toInstallAutomatically.Count > 0)
-        //        {
-        //            IInstallationResult installationRes = installUpdates(session, toInstallAutomatically);
+                    if (installationRes.RebootRequired)
+                    {
+                        Console.WriteLine("Rebooting to finish installation!");
+                        moreUpdates = false;
+                        System.Diagnostics.Process.Start("ShutDown", "/r");
+                    }
 
-        //            if (installationRes.RebootRequired)
-        //            {
-        //                Console.WriteLine("Rebooting to finish installation!");
-        //                moreUpdates = false;
-        //                System.Diagnostics.Process.Start("ShutDown", "/r");
-        //            }
+                }
+                else
+                {
+                    moreUpdates = false;
+                    System.Console.WriteLine("Updates Complete! Press a key to continue.");
+                    System.Console.ReadKey();
+                }
+            }
+        }
 
-        //        }
-        //        else
-        //        {
-        //            moreUpdates = false;
-        //            System.Console.WriteLine("Updates Complete! Press a key to continue.");
-        //            System.Console.ReadKey();
-        //        }
-        //    }
-        //}
-
-        //private static ISearchResult CheckForUpdates(UpdateSession session)
-        //{
-        //    ISearchResult uResult;
-        //    Console.WriteLine("Checking for updates!");
-        //    session = new UpdateSession();
-        //    IUpdateSearcher uSearcher = session.CreateUpdateSearcher();
-        //    uResult = uSearcher.Search("IsInstalled = 0 and Type='Software'");
-        //    return uResult;
-        //}
+        private static ISearchResult CheckForUpdates(UpdateSession session)
+        {
+            ISearchResult uResult;
+            Console.WriteLine("Checking for updates!");
+            session = new UpdateSession();
+            IUpdateSearcher uSearcher = session.CreateUpdateSearcher();
+            uResult = uSearcher.Search("IsInstalled = 0 and Type='Software'");
+            return uResult;
+        }
 
         private static IInstallationResult installUpdates(UpdateSession session, UpdateCollection toInstallAutomatically)
         {
@@ -73,8 +81,13 @@ namespace UpdateEverything
             }
             Console.WriteLine("Installing {0} updates", updatesToInstall.Count);
             IUpdateInstaller installer = session.CreateUpdateInstaller();
-            installer.Updates = updatesToInstall;
-            IInstallationResult installtionRes = installer.Install();
+            // don't let the updater prompt for CDs/DVDs.
+            installer.AllowSourcePrompts = false;
+            IUpdateInstaller2 quietinstall;
+            quietinstall = (IUpdateInstaller2)session.CreateUpdateInstaller();
+            quietinstall.Updates = updatesToInstall;
+            quietinstall.ForceQuiet = true;
+            IInstallationResult installtionRes = quietinstall.Install();
             Console.WriteLine("Updates complete!");
             return installtionRes;
         }
@@ -85,7 +98,7 @@ namespace UpdateEverything
             UpdateCollection toInstallAutomatically = new UpdateCollection();
             foreach (IUpdate update in found.Updates)
             {
-                if (update.MsrcSeverity.Equals("Critical"))
+                if (update.AutoSelectOnWebSites == true)
                 {
 
 
@@ -101,19 +114,20 @@ namespace UpdateEverything
                         }
                     }
 
-                    if (update.EulaAccepted && !update.InstallationBehavior.CanRequestUserInput)
+                    //if (update.EulaAccepted && !update.InstallationBehavior.CanRequestUserInput)
+                     if (update.EulaAccepted)
                     {
                         toInstallAutomatically.Add(update);
                     }
 
                     // works for service packs, even though CanRequestUserInput is true. however, IE9 blocks progress.
                     // This currently will try to install anything wtih "service pack" in the name. No bueno.
-                    if (update.EulaAccepted && update.Title.Contains("Service Pack"))
-                    {
-                        toInstallAutomatically.Add(update);
-                        Console.WriteLine("Service pack found!");
-                        Console.WriteLine(update.Title);
-                    }
+                    // if (update.EulaAccepted && update.Title.Contains("Service Pack"))
+                    // {
+                    //     toInstallAutomatically.Add(update);
+                    //    Console.WriteLine("Service pack found!");
+                    //    Console.WriteLine(update.Title);
+                    // }
                 }
 
             }

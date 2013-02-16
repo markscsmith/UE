@@ -27,7 +27,19 @@
         }
         "Entry"
         {
+        "MsmKey" = "8:_67EB814CF7AF46A4AE69741B9C16B2FF"
+        "OwnerKey" = "8:_UNDEFINED"
+        "MsmSig" = "8:_UNDEFINED"
+        }
+        "Entry"
+        {
         "MsmKey" = "8:_95C26DFA7A0D4DCB8C0DD0E27C6F3A11"
+        "OwnerKey" = "8:_UNDEFINED"
+        "MsmSig" = "8:_UNDEFINED"
+        }
+        "Entry"
+        {
+        "MsmKey" = "8:_C873650DFE6A43FDADEF4A350B7A9213"
         "OwnerKey" = "8:_UNDEFINED"
         "MsmSig" = "8:_UNDEFINED"
         }
@@ -70,10 +82,10 @@
             "ComponentsUrl" = "8:"
                 "Items"
                 {
-                    "{EDC2488A-8267-493A-A98E-7D9C3B36CDF3}:.NETFramework,Version=v4.0,Profile=Client"
+                    "{EDC2488A-8267-493A-A98E-7D9C3B36CDF3}:Microsoft.Net.Framework.3.5.SP1"
                     {
-                    "Name" = "8:Microsoft .NET Framework 4 Client Profile (x86 and x64)"
-                    "ProductCode" = "8:.NETFramework,Version=v4.0,Profile=Client"
+                    "Name" = "8:.NET Framework 3.5 SP1"
+                    "ProductCode" = "8:Microsoft.Net.Framework.3.5.SP1"
                     }
                     "{EDC2488A-8267-493A-A98E-7D9C3B36CDF3}:Microsoft.Windows.Installer.3.1"
                     {
@@ -168,6 +180,26 @@
             "IsDependency" = "11:TRUE"
             "IsolateTo" = "8:"
             }
+            "{1FB2D0AE-D3B9-43D4-B9DD-F88EC61E35DE}:_67EB814CF7AF46A4AE69741B9C16B2FF"
+            {
+            "SourcePath" = "8:..\\..\\..\\..\\..\\Downloads\\WindowsUpdateAgent30-x64.exe"
+            "TargetName" = "8:WindowsUpdateAgent30-x64.exe"
+            "Tag" = "8:"
+            "Folder" = "8:_9C9874168AC84EB28340B8949C0EEE17"
+            "Condition" = "8:"
+            "Transitive" = "11:FALSE"
+            "Vital" = "11:TRUE"
+            "ReadOnly" = "11:FALSE"
+            "Hidden" = "11:FALSE"
+            "System" = "11:FALSE"
+            "Permanent" = "11:FALSE"
+            "SharedLegacy" = "11:FALSE"
+            "PackageAs" = "3:1"
+            "Register" = "3:1"
+            "Exclude" = "11:FALSE"
+            "IsDependency" = "11:FALSE"
+            "IsolateTo" = "8:"
+            }
             "{9F6F8455-1EF1-4B85-886A-4223BCC8E7F7}:_95C26DFA7A0D4DCB8C0DD0E27C6F3A11"
             {
             "AssemblyRegister" = "3:1"
@@ -183,6 +215,26 @@
                 }
             "SourcePath" = "8:..\\UpdateEverything\\bin\\Debug\\Interop.WUApiLib.dll"
             "TargetName" = "8:"
+            "Tag" = "8:"
+            "Folder" = "8:_9C9874168AC84EB28340B8949C0EEE17"
+            "Condition" = "8:"
+            "Transitive" = "11:FALSE"
+            "Vital" = "11:TRUE"
+            "ReadOnly" = "11:FALSE"
+            "Hidden" = "11:FALSE"
+            "System" = "11:FALSE"
+            "Permanent" = "11:FALSE"
+            "SharedLegacy" = "11:FALSE"
+            "PackageAs" = "3:1"
+            "Register" = "3:1"
+            "Exclude" = "11:FALSE"
+            "IsDependency" = "11:FALSE"
+            "IsolateTo" = "8:"
+            }
+            "{1FB2D0AE-D3B9-43D4-B9DD-F88EC61E35DE}:_C873650DFE6A43FDADEF4A350B7A9213"
+            {
+            "SourcePath" = "8:..\\..\\..\\..\\..\\Downloads\\WindowsUpdateAgent30-x86.exe"
+            "TargetName" = "8:WindowsUpdateAgent30-x86.exe"
             "Tag" = "8:"
             "Folder" = "8:_9C9874168AC84EB28340B8949C0EEE17"
             "Condition" = "8:"
@@ -267,7 +319,7 @@
         "Name" = "8:Microsoft Visual Studio"
         "ProductName" = "8:Update Everything"
         "ProductCode" = "8:{9453ECF1-E1B8-4267-B8F3-8936CF59DAAB}"
-        "PackageCode" = "8:{F3FEB917-F9E2-4376-860F-314A023D7AAF}"
+        "PackageCode" = "8:{8F5FC9E4-045D-47E3-9876-7E6D7F08221C}"
         "UpgradeCode" = "8:{9D8C166F-C496-4CFE-848A-9342B18586F3}"
         "AspNetVersion" = "8:4.0.30319.0"
         "RestartWWWService" = "11:FALSE"
@@ -802,7 +854,7 @@
         {
             "{5259A561-127C-4D43-A0A1-72F10C7B3BF8}:_1C3529A8C1FC4AD5B4A7D1F899B046AB"
             {
-            "SourcePath" = "8:..\\UpdateEverything\\obj\\x86\\Release\\UpdateEverything.exe"
+            "SourcePath" = "8:..\\UpdateEverything\\obj\\x86\\Debug\\UpdateEverything.exe"
             "TargetName" = "8:"
             "Tag" = "8:"
             "Folder" = "8:_9C9874168AC84EB28340B8949C0EEE17"

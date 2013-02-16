@@ -10,30 +10,31 @@ namespace UpdateEverything
 {
     class TestUpdates
     {
-        static void Main(string[] args)
-        {
-            UpdateSession session = new UpdateSession();
-            ISearchResult uResult;
+        //static void Main(string[] args)
+        //{
+        //    UpdateSession session = new UpdateSession();
+        //    ISearchResult uResult;
 
-            Boolean moreUpdates = true;
-            while (moreUpdates)
-            {
+        //    Boolean moreUpdates = true;
+        //    while (moreUpdates)
+        //    {
 
-                uResult = CheckForUpdates(session);
+        //        uResult = CheckForUpdates(session);
 
-                getAutoUpdates(uResult);
-            }
-        }
+        //        getAutoUpdates(uResult);
+        //    }
+        //}
 
-        private static ISearchResult CheckForUpdates(UpdateSession session)
-        {
-            ISearchResult uResult;
-            Console.WriteLine("Checking for updates!");
-            session = new UpdateSession();
-            IUpdateSearcher uSearcher = session.CreateUpdateSearcher();
-            uResult = uSearcher.Search("IsInstalled = 0 and Type='Software'");
-            return uResult;
-        }
+        //private static ISearchResult CheckForUpdates(UpdateSession session)
+        //{
+        //    ISearchResult uResult;
+        //    Console.WriteLine("Checking for updates!");
+        //    session = new UpdateSession();
+        //    IUpdateSearcher uSearcher = session.CreateUpdateSearcher();
+        //    //uResult = uSearcher.Search("IsInstalled = 0 and Type='Software'");
+        //    uResult = uSearcher.Search("IsInstalled=0");
+        //    return uResult;
+        //}
 
 //        class Foo {
 //    public int A {get;set;}
