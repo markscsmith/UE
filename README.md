@@ -1,7 +1,7 @@
 UE
 ==
 
-This program will install windows updates and reboot the machine. By placing it in the startup folder and enabling automatic login, you can take a fresh, in-updated install of Windows - or a stale install for a machine that has been on a shelf for a while - and get it fully updated without having to babysit it and hit "check for updates" after every reboot.
+This program will install windows updates and reboot the machine. By placing it in the startup folder and enabling automatic login, you can take a fresh, un-updated install of Windows - or a stale install for a machine that has been on a shelf for a while - and get it fully updated without having to babysit it and hit "check for updates" after every reboot.
 
 The code is rough and hacky, but should work on Vista, Windows 7, and Windows 8. It is untested on Windows 8.1. 
 
